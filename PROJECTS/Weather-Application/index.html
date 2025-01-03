@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="img-section">
+                <div class="default-info">
+                    <h2 class="default-day">Sunday</h2>
+                    <span class="default-date">27 December 2023</span>
+                    <div class="icons">
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="">
+                        <h2 class="weather-temp">23°C</h2>
+                        <h3 class="cloud-text">Overcast clouds</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="content-section">
+                <form>
+                    <input type="text" placeholder="search Location" class="input-field">
+                    <button type="submit" class="btn-search">search</button>
+                </form>
+
+                <div class="day-info">
+                    <div class="content">
+                        <p class="title">Name</p>
+                        <span class="value">United kingdom</span>
+                    </div>
+                    <div class="content">
+                        <p class="title">Temp</p>
+                        <span class="value">23°C</span>
+                    </div>
+                    <div class="content">
+                        <p class="title">Humidity</p>
+                        <span class="value">2%</span>
+                    </div>
+                    <div class="content">
+                        <p class="title">Wind Speed</p>
+                        <span class="value">2.92 km/h</span>
+                    </div>
+                </div>
+
+                <div class="list-content">
+                    <ul>
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Sat</span>
+                            <span class="day-temp">23°C</span>
+                        </li>
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Sat</span>
+                            <span class="day-temp">23°C</span>
+                        </li>
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Sat</span>
+                            <span class="day-temp">23°C</span>
+                        </li>
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Sat</span>
+                            <span class="day-temp">23°C</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
