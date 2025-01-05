@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    font-size: 4rem;
+    color: rgb(238, 113, 3);
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    font-size: 1rem;
+    color: black;
+    border: .1rem solid black;
+}
+#inp-text{
+    width: 20rem;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+}

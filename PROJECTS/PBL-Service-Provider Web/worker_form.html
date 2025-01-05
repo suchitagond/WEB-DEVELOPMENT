@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <style>
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #4CAF50;
+        }
+
+        .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center>
+        <h1 style="color: rgb(6, 86, 86);"> WORKERS REGISTRATION</h1>
+    </center>
+
+</head>
+
+<body>
+    <center>
+        <h3 style="font-size: 150%; border: black; border-width: 2px; border-style: solid; margin-left: 300px; margin-right: 300px; background-color: rgb(254, 255, 240);">
+            <form action="result_user.html">
+                <br>
+                <label for="email">Email ID : </label>
+                <input type="email" id="email" placeholder=" demo@service.com" required autofocus autocomplete="off">
+                <!-- <textarea name="email" id="email" cols="25" rows="1" placeholder="  demo@service.com" ></textarea> -->
+                <br><br>
+                <label for="username">Username : </label>
+                <input type="text" id="username"  placeholder=" Full Name" required autofocus autocomplete="off">
+                <br><br>
+                <label style="margin-left: 10px;" for="address">Address : </label>
+                <input type="text" id="address" placeholder=" Full Add" required autofocus autocomplete="off">
+                <!-- <textarea name="address" id="address" cols="25" rows="1" placeholder=" Full Add" ></textarea> -->
+                <br><br>
+                <label style="margin-left: 1px;" for="dob">DOB : </label>
+                <input type="date" id="dob" placeholder=" dd/mm/yyyy" required autofocus autocomplete="off">
+                <br><br>
+                <label for="contact no.">Contact No. : </label>
+                <input type="numbers" id="contact no." placeholder=" 0000000000" maxlength="10" minlength="10" required
+                    autofocus autocomplete="off">
+                <br><br>
+                <label for="services">Service To Prvide: </label>
+                <select name="Services" id="Services">
+                    <option value="Painting">Painting</option>
+                    <option value="Plumbing">Plumbing</option>
+                    <option value="Carpentry">Carpentry</option>
+                    <option value="Interior Home Designs">Interior Home Designs</option>
+                    <option value="Cleaning">Cleaning</option>
+                    <option value="Electrical Work">Electrical Work</option>
+                </select>
+                <br><br>
+                <label for="experence">Work Experence : </label>
+                <input type="text" id="experence"  placeholder=" Experence" required autofocus autocomplete="off">
+                <br><br>
+                <button class="button button1"> <a style="font-size: 90%;" href="result_user.html"> Submit</a></button>
+            </form>
+        </h2>
+    </center>
+</body>
+
+</html>

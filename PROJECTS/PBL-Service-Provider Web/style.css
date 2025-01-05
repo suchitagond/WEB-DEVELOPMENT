@@ -1,0 +1,124 @@
+/* Resetting default margins and paddings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Adjusting margins for headings */
+h1, h2, h4, h5 {
+    margin: 20px 0;
+}
+
+/* Ensuring carousel images fill the width */
+.carousel-item img {
+    width: 100%;
+    height: 100hv;
+}
+
+/* Center aligning text */
+.text-center {
+    text-align: center;
+}
+
+/* Styling service boxes */
+.service-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+/* Styling buttons */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #4CAF50;
+}
+
+.button2 {
+    background-color: #008CBA;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer p, footer a {
+    margin: 0;
+    color: #6c757d;
+}
+
+footer a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+footer .fab {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Centering footer content on smaller screens */
+    .footer-center {
+        text-align: center;
+    }
+    
+    .footer-center div {
+        margin: 10px 0;
+    }
+
+    /* Adjusting service box margins for responsiveness */
+    .service-box {
+        margin: 10px auto;
+    }
+
+    /* Resizing carousel images for smaller screens */
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Centering footer content on smallest screens */
+    .footer-center {
+        text-align: center;
+    }
+    
+    .footer-center div {
+        margin: 10px 0;
+    }
+
+    /* Adjusting service box margins for smallest screens */
+    .service-box {
+        margin: 10px auto;
+    }
+
+    /* Further resizing carousel images for very small screens */
+    .carousel-item img {
+        height: 200px;
+    }
+}

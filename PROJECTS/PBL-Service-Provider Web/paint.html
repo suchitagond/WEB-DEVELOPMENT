@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Art Painting Styles</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("ba2.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: rgb(222, 69, 100);
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .section-title {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(18, 122, 127);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .painting-style {
+            border: 2px solid rgb(1, 95, 25);
+            margin: 20px 10px;
+            padding: 20px;
+            float: left;
+            width: calc(50% - 40px); /* Adjusted width for responsiveness */
+            box-sizing: border-box;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .painting-style h2 {
+            color: rgb(223, 140, 31);
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        .painting-style h3 {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .painting-image {
+            float: right;
+            margin-right: 100px;
+        }
+
+        /* Clear floats for better alignment */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .painting-style {
+                width: 100%;
+            }
+
+            .painting-image {
+                float: none;
+                margin: 20px auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hey, your house is looking so dull can we add some colors in it</h1>
+        <ul style="list-style-type: square;">
+            <li><h2>Let's decorate your house by selecting Painting Styles</h2></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1 class="section-title">Popular Art Painting Styles</h1>
+
+        <div class="painting-style">
+            <h2>REALISM</h2>
+            <p>
+                Realism is a style of art that attempts to depict the subject as it appears in real life, but with a focus on artistic interpretation rather than photographic precision.
+            </p>
+            <img src="pa1.jpg" alt="Realism Painting" class="painting-image" height="150" width="250">
+        </div>
+
+        <div class="painting-style">
+            <h2>PHOTOREALISM</h2>
+            <p>
+                Photorealism is an art style that aims to replicate the appearance of a photograph with extreme detail and precision on canvas or other mediums.
+            </p>
+            <img src="pa2.jpg" alt="Photorealism Painting" class="painting-image" height="150" width="250">
+        </div>
+
+        <div class="painting-style">
+            <h2>PAINTERLY</h2>
+            <p>
+                Painterly art is characterized by visible brushstrokes and texture in the paint, emphasizing the artist's hand in the creation process.
+            </p>
+            <img src="pa3.jpg" alt="Painterly Painting" class="painting-image" height="150" width="250">
+        </div>
+
+        <div class="painting-style">
+            <h2>ABSTRACT</h2>
+            <p>
+                Abstract art does not attempt to represent reality, focusing instead on shapes, forms, colors, and textures to convey emotions and ideas.
+            </p>
+            <img src="pa4.jpg" alt="Abstract Painting" class="painting-image" height="150" width="250">
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</body>
+
+</html>
