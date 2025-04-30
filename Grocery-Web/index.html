@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="fa-solid fa-basket-shopping"></div>
+            <div class="name">Name</div>
+        </div>
+        <ul class="heading">
+            <a href="#home">Home</a>
+            <a href="#feature">Feature</a>
+            <a href="#product">Product</a>
+            <a href="">Categories</a>
+            <a href="">Review</a>
+        </ul>
+        <div class="side-icons">
+            <div id="menu-bar" class="fa-solid fa-bars"></div>
+            <div id="search-btn" class="fa-solid fa-magnifying-glass"></div>
+            <div id="card-btn" class="fa-solid fa-cart-shopping"></div>
+            <div id="login-btn" class="fa-solid fa-user"></div>
+        </div>
+
+        <form action="" class="search">
+            <input type="search" id="search-box" placeholder="Search here">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="items">
+
+                <img src="img/apple.jpg" alt="">
+                <div class="content">
+                    <h2>Apple</h2>
+                    <span class="prize">$5.2/-</span>
+                    <span class="quantity">qty: 2</span>
+                </div>
+                <i id="trash" class="fa-solid fa-trash"></i>
+            </div>
+            <div class="items">
+
+                <img src="img/orange.jpg" alt="">
+                <div class="content">
+                    <h2>Orange</h2>
+                    <span class="prize">$5.2/-</span>
+                    <span class="quantity">qty: 2</span>
+                </div>
+                <i id="trash" class="fa-solid fa-trash"></i>
+            </div>
+            <div class="total">Total : $16.3/-</div>
+            <div class="check">
+                <a href="" class="btn">CheckOut</a>
+            </div>
+        </div>
+
+        <form action="" class="login-account">
+            <h3>Login Now</h3>
+            <div class="info">
+                <input type="text" placeholder="Enter UserName">
+                <input type="text" placeholder="Enter Password">
+            </div>
+            <p>Forget Password <a href="">click here</a></p>
+            <p>Create account <a href="">click here</a></p>
+            <div class="login">
+                <a href="" class="btn">Login</a>
+            </div>
+        </form>
+    </nav>
+
+
+    <section class="Home" id="home">
+        <div class="content">
+            <h3>Fresh and <span>organic</span> producet for you</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolore maxime doloribus, hic quisquam
+                voluptate. Dolor quisquam dolores delectus, facilis atque, earum aliquam cupiditate error voluptate,
+                doloribus dolorem porro natus.</p>
+            <a href="" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+
+
+    <section class="feature" id="feature">
+        <h3>Our <span>Features</span></h3>
+        <div class="steps">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="img/dilevery.jpg"
+                                alt="">
+                            <h3>Free dilivery</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="img/offer.jpg"
+                                alt="">
+                            <h3>50% Off</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="img/exchange.webp"
+                                alt="">
+                            <h3>Exchange Policy</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="img/add-to-card.jpg"
+                                alt="">
+                            <h3>Add to Cart</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="img/review.jpg"
+                                alt="">
+                            <h3>Review System</h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="img/quality.png" alt="">
+                            <h3>quality Assurance</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="product" id="product">
+        <h3>Our <span>Products</span></h3>
+        <div class="o">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <span class="price">$5-$20</span>
+                            <img src="img/orange.jpg" alt="">
+                            <h4>Fresh and Organic</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, commodi ut deleniti
+                                sequi atque</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <span class="price">$5-$20</span>
+                            <img src="img/orange.jpg" alt="">
+                            <h4>Fresh and Organic</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, commodi ut deleniti
+                                sequi atque</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <span class="price">$5-$20</span>
+                            <img src="img/orange.jpg" alt="">
+                            <h4>Fresh and Organic</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, commodi ut deleniti
+                                sequi atque</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <span class="price">$5-$20</span>
+                            <img src="img/orange.jpg" alt="">
+                            <h4>Fresh and Organic</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, commodi ut deleniti
+                                sequi atque</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <span class="price">$5-$20</span>
+                            <img src="img/kiwis.jpg" alt="">
+                            <h4>Fresh and Organic</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, commodi ut deleniti
+                                sequi atque</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <span class="price">$5-$20</span>
+                            <img src="img/apple.jpg" alt="">
+                            <h4>Fresh and Organic</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, commodi ut deleniti
+                                sequi atque</p>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <hr>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
